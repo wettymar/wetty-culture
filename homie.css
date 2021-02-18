@@ -1,0 +1,97 @@
+
+   .home{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(image/girl.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    color:rgb(233, 127, 29);
+}
+   .navbar{
+       width: 100%;
+       height: 15vh;
+       margin: auto;
+       display: flex;
+       align-items: center;
+   }
+   ul li{
+    background-color: black;
+    float: right;
+    height:40px ;
+    width: 160px;
+    background-color: whitesmoke;
+    color: rgb(221, 125, 46);
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    transition: background-position 0.5s;
+    background-position: left;
+    background-size: 200%;
+    cursor: pointer;
+    border: 2px solid rgb(122, 68, 68);
+  
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ul li :hover{
+    background-color: rgb(230, 150, 150);
+    background-position: left; 
+   
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li{
+    text-decoration: none;
+    color: yellow;
+}
+.line{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(image/drink.jpg);
+    
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    color:rgb(167, 82, 26);
+}
+.ne{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(image/food.jpg);
+    
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    color:rgb(224, 118, 32);
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+.hoy{
+    color: rgb(230, 109, 29);
+}
+h1{
+    color:rgb(224, 118, 32);
+}
